@@ -1,4 +1,4 @@
-# Nonlinear constrained optimization asset allocation problem with gradient decent algorithm.
+# Nonlinear constrained optimization of asset allocation with gradient decent algorithm.
 
 This work addresses an asset allocation problem: maximization of risk-adjusted return on capital subjest to Basel-III regulatory constraints, exposure limits and certain business objectives. The optimization is complicated by the non-linear nature of the problem, and presence of non-differentiable indicator variables.
 
