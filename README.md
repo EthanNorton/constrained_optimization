@@ -1,6 +1,6 @@
 # Nonlinear constrained optimization asset allocation problem with gradient decent algorithm.
 
-This work addresses a asset allocation problem: maximization of risk-adjusted return on capital subjest to Basel-III regulatory constraints, exposure limits and certain business objectives. The optimization is complicated by the non-linear nature of the problem, and presence of non-differentiable indicator variables.
+This work addresses an asset allocation problem: maximization of risk-adjusted return on capital subjest to Basel-III regulatory constraints, exposure limits and certain business objectives. The optimization is complicated by the non-linear nature of the problem, and presence of non-differentiable indicator variables.
 
 A common approach to handling constraints in optimization problems is to incorporate them into the loss function as penalties. This method penalizes the objective function when constraints are violated, effectively guiding the optimization process toward feasible solutions. However, this approach makes the loss function non-differentiable at the points where constraints are breached.
 
